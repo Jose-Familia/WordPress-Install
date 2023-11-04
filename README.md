@@ -56,26 +56,29 @@ The Docker Compose configuration includes the following services and settings:
 
 Database (MySQL):
 
-Image: mysql:5.7
-Root Username: root
-Root Password: password
-Database Name: wordpress
-WordPress User: wordpress
-WordPress Password: wordpress
-Connection Host: db:3306
+Image: mysql:5.7 </br>
+Root Username: root </br>
+Root Password: password </br>
+Database Name: wordpress </br>
+WordPress User: wordpress </br>
+WordPress Password: wordpress </br>
+Connection Host: db:3306 </br>
+
 phpMyAdmin:
 
-Image: phpmyadmin/phpmyadmin
-Access at http://localhost:8080
-Connection Host: db
-Root Username: root
-Root Password: password
+Image: phpmyadmin/phpmyadmin </br>
+Access at http://localhost:8080 </br>
+Connection Host: db </br>
+Root Username: root </br>
+Root Password: password </br>
+
 WordPress:
 
-Image: wordpress:latest
-Access at http://localhost:8000
-Data Volume: ./:/var/www/html
-Data Persistence
+Image: wordpress:latest </br>
+Access at http://localhost:8000 </br>
+Data Volume: ./:/var/www/html </br>
+Data Persistence </br>
+
 This Docker Compose setup ensures data persistence for the MySQL database. Data is stored in Docker volumes, allowing it to persist even if containers are stopped or removed.
 
 License
