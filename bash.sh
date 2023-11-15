@@ -1,6 +1,6 @@
 ## Iniciar Docker-compose
 
-docker-compose up
+docker-compose up 
 
 ## Iniciar Docker-compose en segundo plano
 
@@ -28,4 +28,3 @@ docker-compose down --rmi all -v --remove-orphans --remove-networks
 
 ## Detener Docker-compose y eliminar los contenedores y volumenes y imagenes y redes y imagenes sin etiquetas
 
-docker-compose down --rmi all -v --remove-orphans --remove-networks --rmi local
