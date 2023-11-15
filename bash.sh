@@ -1,6 +1,6 @@
 ## Iniciar Docker-compose
 
-docker-compose up 
+docker-compose up
 
 ## Iniciar Docker-compose en segundo plano
 
